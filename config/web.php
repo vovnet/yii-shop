@@ -13,6 +13,9 @@ $config = [
             'cookieValidationKey' => 'V-pGiKJ5o7u74UHTulzQNcFfKyjXL76H',
             'baseUrl' => ''
         ],
+        'assetManager' => [
+            'appendTimestamp' => true
+        ],
         'cache' => [
             'class' => 'yii\caching\FileCache',
         ],
